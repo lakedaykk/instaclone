@@ -1,0 +1,264 @@
+
+/*기본 세팅*/
+
+*{
+    box-sizing:border-box; 
+}
+
+body{
+
+    height:750px;
+}
+
+
+
+/*계속 쓰이는 되는 부분 */
+.storypic{
+
+    display:flex;
+    position:relative;
+    border:0.5px solid gray;
+                       
+    
+                        
+    }
+    
+    .namepic{
+                                            
+                                            
+        width:50px;
+        height:50px;
+        border-radius : 50%;
+        display:inline;
+    }
+
+
+
+
+
+/* NAV 바 */
+nav{
+
+    display:flex;
+    justify-content : space-around;
+    align-items : center;
+    border:0.5px solid gray;
+    width:60%;
+    margin: 0 auto;
+
+                   /*NAV 왼쪽 로고*/
+                    .logo {
+                        width: 30px;
+                        margin-right:20px;
+                    }
+                    .logotwo {
+
+                        width:100px;
+                    }
+
+
+
+                    /* NAV inputbar */
+
+                    .navinputbar{
+
+                        height:30px;
+                        
+                                .circles{
+                            
+                                    width:18px;
+                                                                   
+                                }
+                                
+                                .navinput{
+                                
+                                    border-color:white;
+                                    width:70%;
+                            
+                                }
+
+                             /*Nav 오른쪽 로고*/
+                              
+                      }      
+                      
+                      .logothree,.logofour,.logofive{
+
+                        width:20px;
+                    }
+}
+
+  
+ 
+
+
+/*Main*/
+
+.main{
+    width:60%; 
+    height:100%;
+    display:flex;
+    justify-content:flex-end;
+    border:0.5px solid gray;
+    margin: 0 auto;
+
+                .feeds{
+                    margin-top : 20px;
+                    width:800px;
+                    border:0.5px solid gray;
+                    
+
+
+                                        /*이름*/
+                                        .artname{
+
+                                            display:flex;
+                                        }
+                                        
+                                        /*메인사진*/
+                                        .artpic{
+
+                                            width:100%;
+                                            height:500px;
+                                        }
+                                        .mainpicture{
+                                            height:100%;
+                                            width:100%;
+                                        }
+
+                                        
+
+                                        /* 하트 아이콘들 */
+
+                                        .articonbar{
+
+                                            position:relative;
+                                            height:30px;
+                                            margin-bottom:5px;
+                                            border:0.5px solid gray;
+
+
+
+                                                            .logoseven{
+                                                                position:absolute;
+                                                                left:0px;
+                                                                z-index:1;
+                                                            }
+                    
+                                                            .logosix {
+                    
+                                                                position : absolute;
+                                                                right:10px;
+                                                                top:1px;
+                                                            }
+                    
+                                                            .logoeight{
+                    
+                                                                position:absolute;
+                                                                left:25px;
+                                                            }
+    
+                                                            .logosix,.logoseven,.logoeight{
+
+                                                                width:20px;
+                                                            }
+
+                                                            .redheart{
+
+                                                                width:20px;
+                                                                position:absolute;
+                                                                left:0px;
+                                                                z-index:100;
+
+                                                                &:hover{
+
+                                                                    display:none;
+                                                                }
+                                                            }
+                                        }
+
+                                       
+
+                                       
+
+                                       
+                                        /*코멘트*/
+                                        .artinputcontainer{
+
+                                            display:flex;
+                                            justify-content: space-between;
+                                            border:0.5px solid gray;
+                                        }
+                                        .combutton{
+                                        
+                                        margin-right:10%;
+                                        }
+                                        .artcommentlist{
+                                            margin-bottom:5px;
+                                        }
+                                        .gowrite{
+
+                                            margin-left:10px;
+                                        }
+                                        .commentul{
+
+                                            list-style:none;
+                                            margin-top:5px;
+                                            margin-left:1px;
+                                            padding-left:5px;
+                                        }
+
+
+
+                }
+                
+                .mainright{
+                    margin-top : 20px;
+                    margin-right:20px;
+                    width:25%;
+                    border:0.5px solid gray;
+
+
+
+                            /*오른쪽*/
+                                .rightname{
+
+                                    display:flex;
+                                    border:0.5px solid gray;
+
+                                }
+                                .rightstory{
+                                    border:0.5px solid gray;
+                                }
+                                .rightrecommend{
+
+                                    border:0.5px solid gray;
+                                }
+                                .nametag{
+
+                                    display:flex;
+                                    justify-content: space-between;
+                                
+                                                            .tag{
+                                
+                                                                margin-left : 5px;
+                                                            }
+                                                            .tagg{
+                                                            
+                                                                margin-right:5px;
+                                                            }
+                                }
+                                .follow{
+    
+                                    position: absolute;
+                                    right: 5px;
+                                    top: 15px;
+                                }
+                }
+};
+
+
+
+
+
+
+
